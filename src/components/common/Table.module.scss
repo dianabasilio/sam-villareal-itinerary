@@ -1,0 +1,47 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  thead {
+    th {
+      background-color: #967aa1;
+      color: #ffffff;
+      font-size: 16px;
+    }
+  }
+
+  tbody {
+    tr {
+      &:hover {
+        background-color: #f5f5f5;
+      }
+    }
+    td {
+      color: #333333;
+      font-size: 14px;
+
+      /* Aplica negrita a todos los td dentro del tbody */
+      font-weight: bold;
+    }
+
+    /* Colorea las filas impares con un color específico */
+    tr:nth-child(odd) {
+      td {
+        background-color: #f5e6e8; /* Color azul para filas impares */
+      }
+    }
+
+    /* Colorea las filas pares con otro color */
+    tr:nth-child(even) {
+      td {
+        background-color: #d5c6e0; /* Color rojo para filas pares */
+      }
+    }
+  }
+}
