@@ -17,6 +17,9 @@ const HomePage: React.FC = () => {
         </h1>
       </div>
       <Button variant="primary">
+        <Link href="/itinerary/antes-boda-civil">Pre Boda Civil</Link>
+      </Button>
+      <Button variant="primary">
         <Link href="/itinerary/boda-civil">Boda Civil</Link>
       </Button>
 
