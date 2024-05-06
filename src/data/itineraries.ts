@@ -2,7 +2,7 @@ import { ItineraryMap } from "@/types/types";
 
 const itineraries: ItineraryMap = {
   "antes-boda-civil": {
-    title: "Boda Civil",
+    title: "Pre Boda Civil",
     events: [
       {
         time: "",
@@ -17,7 +17,7 @@ const itineraries: ItineraryMap = {
     ],
   },
   "antes-boda-playa": {
-    title: "Boda Civil",
+    title: "23 Agosto Viernes ",
     events: [
       {
         time: "3:00 PM",
