@@ -1,6 +1,21 @@
 import { ItineraryMap } from "@/types/types";
 
 const itineraries: ItineraryMap = {
+  "antes-boda-civil": {
+    title: "Boda Civil",
+    events: [
+      {
+        time: "",
+        name: "Revisar las plumas sin fallo para la firma del acta ",
+        person: "Sam & Ro",
+      },
+      {
+        time: "",
+        name: "Ir comprar flores",
+        person: "Jackie, Diana, Sam",
+      },
+    ],
+  },
   "antes-boda-playa": {
     title: "Boda Civil",
     events: [
@@ -9,15 +24,55 @@ const itineraries: ItineraryMap = {
         name: "Hora limite para sacar TODAS cosas del cuarto de sam y llevarselas a otro. ",
         person: "TODAS",
       },
+      {
+        time: "4:00 PM",
+        name: "Ayudar y revisar que el vestido este limpio y planchado. ",
+        person: "Juliana",
+      },
     ],
   },
   "boda-civil": {
     title: "Boda Civil",
     events: [
       {
+        time: "ALL DAY",
+        name: "Organic content queens, tiktoks, instastories, etc",
+        person: "Juliana, Vero, Mariana, Marce",
+      },
+      {
         time: "8:00 AM",
         name: "Adornar lugar",
         person: "Jackie, Vero, Diana, Sam",
+      },
+      {
+        time: "9:00 AM",
+        name: "Preparar playlist a dejar post/pre-acústico con fade",
+        person: "Mariana",
+      },
+      {
+        time: "9:40 AM",
+        name: "Hacer prueba de cambio de canciones/prov musicales",
+        person: "Mariana",
+      },
+      {
+        time: "9:00 AM",
+        name: "Colocar los señaladores de asignación de asientos",
+        person: "Marce",
+      },
+      {
+        time: "10:00 AM",
+        name: "Coordinar fotografos para cubrir min el board en evento",
+        person: "Ana Karen",
+      },
+      {
+        time: "10:00 AM",
+        name: "Revisar si el lugar tiene micrófono y bocina",
+        person: "Juliana",
+      },
+      {
+        time: "10:00 AM",
+        name: "Hacer de hostess para asignación de mesas (40min)",
+        person: "Vero",
       },
       {
         time: "11:00 AM",
@@ -25,11 +80,21 @@ const itineraries: ItineraryMap = {
         person: "",
       },
       {
+        time: "11:00 AM",
+        name: "Recoger/Cuidar regalos y sobres que se den",
+        person: "Miri",
+      },
+      {
         time: "12:00 PM",
         name: "Firma de Documentos",
         person: "Oficial del Registro Civil",
       },
       { time: "1:00 PM", name: "Brindis", person: "Familia de los Novios" },
+      {
+        time: "2:00 PM",
+        name: "Resguardar el acta despues de firmar",
+        person: "Diana",
+      },
       { time: "3:00 PM", name: "Finaliza evento", person: "" },
     ],
   },
@@ -71,6 +136,11 @@ const itineraries: ItineraryMap = {
         person: "TODAS",
       },
       {
+        time: "11:40 AM",
+        name: "Revisar que sam no tenga pulseras, ligar o manchas en muñecas y tobillos",
+        person: "Jackie",
+      },
+      {
         time: "12:00 AM",
         name: "Sam's Gettin Ready (FOTOS)",
         person: "TODAS",
@@ -79,6 +149,16 @@ const itineraries: ItineraryMap = {
         time: "1:00 PM",
         name: "Asegurarse que Sam coma",
         person: "Juliana",
+      },
+      {
+        time: "1:30 PM",
+        name: "Llevar botiquín de emergencia",
+        person: "Diana",
+      },
+      {
+        time: "2:40 PM",
+        name: " Poner el bouquet en agua y sacarlo/secarlo 15min antes de salir",
+        person: "Jackie",
       },
       {
         time: "3:00 PM",
@@ -113,7 +193,12 @@ const itineraries: ItineraryMap = {
       {
         time: "4:40 PM",
         name: "Entregar abanicos",
-        person: "Vero y Diana",
+        person: "Vero y Miri",
+      },
+      {
+        time: "5:00 PM",
+        name: "Pedirle celular a novia para cuidarlo",
+        person: "Diana",
       },
       {
         time: "5:00 PM",
