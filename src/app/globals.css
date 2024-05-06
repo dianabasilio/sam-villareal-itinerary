@@ -49,7 +49,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
-  min-height: 60vh;
+  min-height: 70vh;
 }
 
 .img-container h1 {
@@ -59,8 +59,8 @@ footer {
 .img-container {
   position: relative; /* Establece el contenedor como relativo */
   display: block; /* Asegura que el contenedor se maneje como un bloque */
-  width: 75%; /* Ajusta al ancho que necesites, o 100% para ancho completo */
-  height: 280px; /* Altura fija del contenedor */
+  width: 70%; /* Ajusta al ancho que necesites, o 100% para ancho completo */
+  height: 200px; /* Altura fija del contenedor */
   overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
 }
 
@@ -78,7 +78,7 @@ footer {
   transform: translate(-50%, -50%);
   width: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  color: #333;
+  color: #192a51;
   text-align: center;
   padding: 10px 0;
   box-sizing: border-box;

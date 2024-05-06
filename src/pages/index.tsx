@@ -19,16 +19,16 @@ const HomePage: React.FC = () => {
         </h1>
       </div>
       <Link href="/itinerary/antes-boda-civil" passHref>
-        <Button variant="primary">Pre Boda Civil</Button>
+        <Button variant="primary">Pre Civil Marriage</Button>
       </Link>
       <Link href="/itinerary/boda-civil" passHref>
-        <Button variant="primary">Boda Civil</Button>
+        <Button variant="primary">Civil Marriage</Button>
       </Link>
       <Link href="/itinerary/antes-boda-playa" passHref>
-        <Button variant="primary">Viernes 23 Agosto</Button>
+        <Button variant="primary">Friday, August 23</Button>
       </Link>
       <Link href="/itinerary/boda-playa" passHref>
-        <Button variant="primary">Boda en la Playa</Button>
+        <Button variant="primary">Beach wedding</Button>
       </Link>
     </div>
   );
