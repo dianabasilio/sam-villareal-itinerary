@@ -82,7 +82,7 @@ const itineraries: ItineraryMap = {
       {
         time: "11:00 AM",
         name: "Recoger/Cuidar regalos y sobres que se den",
-        person: "Miri",
+        person: "Miranda",
       },
       {
         time: "12:00 PM",
@@ -193,7 +193,7 @@ const itineraries: ItineraryMap = {
       {
         time: "4:40 PM",
         name: "Entregar abanicos",
-        person: "Vero y Miri",
+        person: "Vero y Miranda",
       },
       {
         time: "5:00 PM",

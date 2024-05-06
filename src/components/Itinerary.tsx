@@ -19,7 +19,8 @@ const Itinerary: React.FC<{ itinerary: ItineraryType }> = ({ itinerary }) => {
         (event) =>
           event.time.toLowerCase().includes(value) ||
           event.name.toLowerCase().includes(value) ||
-          event.person.toLowerCase().includes(value)
+          event.person.toLowerCase().includes(value) ||
+          event.person.toLowerCase() === "todas"
       );
       setFilteredData(filtered);
     }
