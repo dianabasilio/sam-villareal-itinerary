@@ -33,7 +33,7 @@ const Itinerary: React.FC<{ itinerary: ItineraryType }> = ({ itinerary }) => {
   }));
 
   return (
-    <div>
+    <div className={styles["itinerary-container"]}>
       <input
         type="text"
         placeholder="Buscar actividad o responsable"

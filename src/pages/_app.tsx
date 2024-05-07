@@ -7,9 +7,11 @@ import Footer from "@/components/common/Footer";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Header />
-      <div className="content">
-        <Component {...pageProps} />
+      <div className="main-content">
+        <Header />
+        <div className="content">
+          <Component {...pageProps} />
+        </div>
       </div>
       <Footer />
     </>

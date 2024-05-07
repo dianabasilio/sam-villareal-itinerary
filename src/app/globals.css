@@ -4,6 +4,28 @@
   padding: 0;
 }
 
+body,
+html {
+  height: 100%; /* Asegura que el html y body ocupen la altura completa */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Ordena los elementos en columna */
+  font-family: "Roboto Slab", serif;
+  background-color: #f5f5f5;
+}
+
+/* Wrapper principal que contendrá todo excepto el footer */
+.main-content {
+  flex: 1; /* Esto permite que el contenedor principal crezca y ocupe cualquier espacio restante */
+  display: flex;
+  flex-direction: column; /* También podrías usar 'row' dependiendo de tu diseño */
+  overflow: hidden; /* Gestiona el desbordamiento */
+}
+
 header {
   background: #967aa1;
   color: #fff;
@@ -16,13 +38,13 @@ header {
 
 header a {
   color: #fff;
-  padding: 0 10px;
   text-decoration: none;
 }
 
-body {
-  font-family: "Roboto Slab", serif;
-  background-color: #f5f5f5;
+.content {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
 }
 
 footer {
@@ -30,17 +52,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 20px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-}
-
-.content {
-  padding: 20px;
-  min-height: 80vh;
-  max-height: 90vh;
-  overflow-y: auto;
-  padding-bottom: 100px;
 }
 
 .home {
@@ -49,7 +61,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 .img-container h1 {
@@ -57,11 +69,11 @@ footer {
 }
 
 .img-container {
-  position: relative; /* Establece el contenedor como relativo */
-  display: block; /* Asegura que el contenedor se maneje como un bloque */
-  width: 70%; /* Ajusta al ancho que necesites, o 100% para ancho completo */
-  height: 200px; /* Altura fija del contenedor */
-  overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el contenedor */
+  position: relative;
+  display: block;
+  width: 70%;
+  height: 200px;
+  overflow: hidden;
 }
 
 .img-container .background-image {
@@ -82,4 +94,14 @@ footer {
   text-align: center;
   padding: 10px 0;
   box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .img-container {
+    width: 100%; /* Ajusta el ancho a 100% para pantallas pequeñas */
+    height: 100px; /* Ajusta la altura para pantallas pequeñas */
+  }
+  .img-container .image-overlay {
+    font-size: medium;
+  }
 }
